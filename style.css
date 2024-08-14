@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: inherit;
+    /* overflow-y: hidden; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+
+.logo{
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.iconbar{
+    display: flex;
+    
+    nav{
+        margin: 20px;
+    }
+}
+.logsignbtn{
+    display: flex;
+    margin-right: 50px;
+
+    button{
+        margin: 20px;
+        text-align: center;
+        color: white;
+        background-color: limegreen;
+        border: 1px solid limegreen;
+        width: 70px;
+        border-radius: 5px;
+
+    }
+    nav{
+        margin: 20px;
+        color: limegreen;
+        
+        
+    }
+}
+.herosec{
+    display: flex;
+    /* margin-top: 5%; */
+    width: inherit;
+    justify-content: space-between;
+    background-color: lightgrey;
+}
+.herotext{
+    /* border: 1px solid blue; */
+    width: 900px;
+    margin: 100px;
+    
+    
+    h2{
+      font-size: 40px;
+      font-family: sans-serif;
+      
+       
+    }
+
+    h3{
+        font-size: 40px;
+        color: limegreen;
+        margin-bottom: 8px;
+        font-family: sans-serif;
+        
+    }
+
+    p{
+        color: gray;
+        margin-bottom: 18px;
+        font-size: 15px;
+    }
+
+    button{
+        text-align: center;
+        color: white;
+        background-color: limegreen;
+        border: 1px solid limegreen;
+        width: 80px;
+        height: 30px;
+        border-radius: 3px;
+
+    }
+
+}
+
+.heroimg{
+    /* border: 1px solid red; */
+    margin-right: 10%;
+    width: 700px;
+
+
+}
+
+h4{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+}
+.oyo{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 30px;
+}
+.seconddiv{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+h5{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+.arm{
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 40px;
+}
+.arm4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.arm5{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.arm5img{
+    /* border: 1px solid green; */
+    margin: 20px;
+    width: 600px;
+    height: 400px;
+    margin-left: 20px;
+
+}
+
+.arm5content{
+    /* border: 1px solid blue; */
+    align-content: center;
+    margin: 20px;
+    width: 620px;
+    height: 400px;
+    nav{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 15px;
+        color: gray;
+        margin-bottom: 45px;
+    }
+    button{
+        border: 1px solid limegreen;
+        width: 130px;
+        height: 40px;
+        color: white;
+        background-color: limegreen;
+    }
+}
+
+.arm6{
+    height: 250px;
+     display: flex;
+     justify-content: space-evenly;
+     /* margin-top: 40px; */
+     /* margin-bottom: 40px; */
+     background-color: lightgrey;
+     /* align-content: center; */
+     
+}
+.arm6content{
+    /* border: 1px solid blue; */
+    align-content: center;
+    nav{
+        font-size: 35px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    p{
+        font-size: 11px;
+        font-weight: normal;
+
+    }
+    
+}
+.greenp{
+    color: limegreen;
+}
+
+.arm6img{
+    /* border: 1px solid green; */
+    align-content: center;
+    
+    img{
+        width: 400px;
+    }
+}
+
+.arm7{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+
+}
+
+.arm7img{
+    /* border: 1px solid red; */
+    align-content: center;
+    
+
+    img{
+        width: 300px;
+        
+    }
+
+}
+
+.arm7content{
+    /* border: 1px solid blue; */
+    align-self: center;
+    
+
+    nav{
+        font-size: 29px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    button{
+        border: 1px solid limegreen;
+        width: 130px;
+        height: 40px;
+        color: white;
+        background-color: limegreen;
+    }
+}
+.grayp{
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+
+.arm8{
+    display: grid;
+    justify-content: space-around;
+    height: 300px;
+    background-color: lightgrey;
+}
+.arm8content{
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+.blackp{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.limep{
+    color: limegreen;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.greyp{
+    color: gray;
+}
+
+
+
+.arm9{
+    display: grid;
+    height: 900px;
+    justify-content:space-around ;
+}
+.darkp{
+    font-size: 27px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 7px;
+    margin-top: 40px;
+}
+.ashp{
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px;
+}
+.arm9img{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: first baseline ;
+    width: 1000px;
+    justify-content: space-evenly;
+    margin-bottom: 430px;
+    img{
+        
+        width: 300px;
+    }
+}
+
+.arm10{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 150px;
+    background-color: lightgrey;
+    margin: auto;
+    
+    
+
+    button{
+        width: 130px;
+        height: 30px;
+        color: white;
+        border:none;
+        background-color: limegreen;
+        
+        }
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    background-color:slategray;
+    color: white;
+
+}
+.bottomlinks, .bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    a{
+        font-size: 10px;
+        font-family: sans-serif;
+        font-weight: normal;
+    }
+
+}
+.bottomlinks >:first-child{
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+.mail{
+    /* border: 1px solid black; */
+    height: 18px;
+    width: 160px;
+    border-radius: 3px;
+    background-color: gray;
+    padding: 5px;
+}
+
+#hue{
+    font-size: 10px;
+
+}
+
+
+
+
+    
+
+
+
+
+
